@@ -1,6 +1,6 @@
 # AI-Based Healthcare Chatbot for Patient Assistance and Triage
 
-# LIVE LINK - https://ai-healthcare-chatbot-triage.onrender.com/
+# LIVE LINK - https://ai-healthcare-chatbot-triage-fronte.vercel.app/
 
 A student project starter for a web-based chatbot that collects symptom descriptions, asks basic follow-up questions, and returns a **non-diagnostic, rule-based urgency suggestion** with safe next steps.
 
