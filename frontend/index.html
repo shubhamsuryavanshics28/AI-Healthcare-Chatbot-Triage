@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CareGuide | Patient Assistance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">+</span> CareGuide</a>
+    <span class="prototype-pill">Student prototype</span>
+  </header>
+
+  <main class="layout">
+    <section class="intro">
+      <p class="eyebrow">PATIENT ASSISTANCE & TRIAGE</p>
+      <h1>Understand your next step.</h1>
+      <p class="lead">Describe what you are experiencing. This prototype can collect details and offer general next-step guidance, but it cannot diagnose you.</p>
+      <div class="notice">
+        <strong>Emergency?</strong>
+        If you may be experiencing a medical emergency, contact local emergency services now. Do not wait for a chatbot response.
+      </div>
+      <div class="feature-row">
+        <div class="feature"><span>01</span><div><strong>Describe</strong><small>Share symptoms in your own words</small></div></div>
+        <div class="feature"><span>02</span><div><strong>Clarify</strong><small>Answer a few basic questions</small></div></div>
+        <div class="feature"><span>03</span><div><strong>Next steps</strong><small>Receive cautious general guidance</small></div></div>
+      </div>
+    </section>
+
+    <section class="chat-card" aria-labelledby="chat-title">
+      <div class="chat-header">
+        <div class="avatar">✚</div>
+        <div><h2 id="chat-title">CareGuide Assistant</h2><p><span class="status-dot"></span> Demo service</p></div>
+      </div>
+      <div class="chat-body" id="messages" aria-live="polite">
+        <div class="message bot">Hello! I can help collect symptom details and suggest general next steps. I cannot provide a diagnosis. What symptoms are you experiencing?</div>
+      </div>
+      <form id="triage-form" class="form">
+        <label for="symptoms">Symptoms <span>Required</span></label>
+        <textarea id="symptoms" name="symptoms" minlength="3" maxlength="2000" placeholder="For example: I have had a mild headache since this morning..." required></textarea>
+        <div class="fields">
+          <div><label for="age">Age</label><input id="age" type="number" min="0" max="120" placeholder="Optional"></div>
+          <div><label for="duration">Duration</label><input id="duration" type="text" maxlength="120" placeholder="e.g. since yesterday"></div>
+          <div><label for="severity">Severity (1–10)</label><input id="severity" type="number" min="1" max="10" placeholder="Optional"></div>
+        </div>
+        <button id="submit-btn" type="submit">Get general guidance <span aria-hidden="true">→</span></button>
+        <p id="form-status" class="form-status" role="status"></p>
+      </form>
+      <p class="disclaimer">Educational demo only · Not a diagnosis · Not for emergencies</p>
+    </section>
+  </main>
+  <footer>CareGuide is a student project. Do not enter real patient-identifying information.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
