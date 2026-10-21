@@ -1,4 +1,4 @@
-const API_BASE = "https://ai-healthcare-chatbot-triage.onrender.com/";
+const API_BASE = "https://ai-healthcare-chatbot-triage.onrender.com";
 const form = document.getElementById("triage-form");
 const messages = document.getElementById("messages");
 const statusEl = document.getElementById("form-status");
