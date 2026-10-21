@@ -1,4 +1,4 @@
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://ai-healthcare-chatbot-triage.onrender.com/";
 const form = document.getElementById("triage-form");
 const messages = document.getElementById("messages");
 const statusEl = document.getElementById("form-status");
