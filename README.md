@@ -1,5 +1,7 @@
 # AI-Based Healthcare Chatbot for Patient Assistance and Triage
 
+# LIVE LINK - https://ai-healthcare-chatbot-triage.onrender.com/
+
 A student project starter for a web-based chatbot that collects symptom descriptions, asks basic follow-up questions, and returns a **non-diagnostic, rule-based urgency suggestion** with safe next steps.
 
 > **Safety notice:** This educational prototype is not a medical device and does not diagnose, treat, or replace a clinician. The triage rules are deliberately simple and incomplete. Do not use this project for real clinical decisions or emergencies. In an emergency, contact local emergency services.
