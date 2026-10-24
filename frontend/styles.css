@@ -68,19 +68,15 @@ body {
     white-space: nowrap;
 }
 
-/* Main layout */
+/* Main Layout */
 .layout {
-    width: min(1240px, calc(100% - 48px));
+    width: min(1500px, calc(100% - 64px));
     margin: 20px auto;
+
     display: grid;
-    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    grid-template-columns: minmax(0, 0.82fr) minmax(0, 1.18fr);
     gap: 32px;
     align-items: start;
-}
-
-.intro,
-.chat-card {
-    min-width: 0;
 }
 
 /* Introduction */
